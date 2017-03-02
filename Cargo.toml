@@ -1,0 +1,7 @@
+[package]
+name = "brightness"
+version = "0.1.0"
+authors = ["NAKANO Hideo <pinarello.marvel@gmail.com>"]
+
+[dependencies]
+image = "*"
