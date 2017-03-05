@@ -5,3 +5,6 @@ authors = ["NAKANO Hideo <pinarello.marvel@gmail.com>"]
 
 [dependencies]
 image = "*"
+rand = "*"
+docopt = "*"
+rustc-serialize = "*"
