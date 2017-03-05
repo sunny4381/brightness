@@ -38,7 +38,7 @@ struct SamplePixels<'a, I: 'a> {
 }
 
 impl<'a, I: GenericImage> SamplePixels<'a, I> {
-    pub fn from_image(image: &'a I, smpl: f64) -> SamplePixels<'a, I> {
+    pub fn from_image(image: &'a I, smpl: f64) -> Self {
         let (width, height) = image.dimensions();
         let mut rng = thread_rng();
 
