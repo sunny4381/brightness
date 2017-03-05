@@ -115,5 +115,5 @@ fn main() {
         _ => calc_gray(img.pixels()),
     };
 
-    println!("{}", gray);
+    println!("{}", gray.round() as u32);
 }
